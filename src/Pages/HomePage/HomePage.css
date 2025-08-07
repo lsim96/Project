@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.main-container {
+  position: relative;
+  margin: 0 auto;
+}
+
+/*First Section CSS*/
+
+.header-container {
+  padding: 1.5rem 0 0 7rem;
+}
+
+.first-section {
+  position: relative;
+  min-height: 750px;
+}
+
+.description-div {
+  width: 50%;
+  padding: 8rem 7rem 0 2rem;
+}
+
+.description-div .paragraph-one {
+  font-weight: bold;
+  text-align: center;
+  font-size: 56px;
+  margin: 0;
+}
+
+.description-div .paragraph-two {
+  font-weight: bold;
+  text-align: center;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  color: #666666;
+}
+
+.main-img-div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  max-width: 672px;
+  height: 586px;
+  overflow: hidden;
+  border-radius: 0 0 151px 360px;
+}
+
+.main-guitar {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.secondary-image-div {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  bottom: 128px;
+  right: 248px;
+  background-color: white;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.logo {
+  width: 28px;
+  height: 28px;
+}
+
+/* Second Section CSS */
+
+.guitar-brand-description {
+  text-align: center;
+  font-weight: bold;
+}
+
+.secondary-sect-paragraph-one {
+  margin: 0;
+  font-size: 56px;
+}
+
+.secondary-sect-paragraph-two {
+  color: #666666;
+  margin-top: 16px;
+}
+
+.guitar-brand-div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 8rem;
+  gap: 2rem;
+}
+
+.guitar-brand-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.guitar-brand-img {
+  width: 176px;
+  height: 96px;
+  object-fit: fill;
+  opacity: 0.5;
+  margin: 4rem 5rem 0 5rem;
+  filter: grayscale(100%);
+}
+
+/* Third Section CSS */
+
+.third-section {
+  background-color: #000;
+}
+
+.third-section-paragraph {
+  color: #ffffff;
+  text-align: center;
+  font-size: 56px;
+  padding-top: 5rem;
+}
+
+.main-svg-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 7rem;
+  padding-bottom: 5rem;
+}
+
+.svg-outter-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 12rem;
+  height: 16rem;
+  gap: 1rem;
+}
+
+.svg-inner-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #262626;
+  border-radius: 20px;
+  width: 5rem;
+  height: 5rem;
+}
+
+.svg-paragraph-one {
+  color: white;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: left;
+  margin-top: 1.75rem;
+}
+
+.svg-paragraph-two {
+  color: #666666;
+  text-align: center;
+  margin: 0;
+}
+
+/* Fourth Section CSS */
+
+.fourth-section {
+  display: flex;
+  height: 533px;
+  /* gap: 8rem; */
+  margin: 8rem;
+}
+
+.fourth-section-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 484px;
+}
+
+.fourth-section-paragraph {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.fourth-section-logo-div {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding-top: 3rem;
+}
+
+.fourth-section-img {
+  height: 3.5rem;
+  width: 11rem;
+  object-fit: cover;
+}
+
+.fourth-section-feed-div {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 568px;
+  padding-left: 10rem;
+}
+
+.fourth-section-eclipse {
+  display: flex;
+  align-items: center;
+  width: 568px;
+  height: 354px;
+  background-color: #ff6428;
+  border-radius: 50%;
+  gap: 2rem;
+  padding-left: 3rem;
+}
+
+.fourth-section-sec-set-img1 {
+  width: 213px;
+  height: 461px;
+  border-radius: 25px;
+  margin-bottom: 5rem;
+}
+
+.fourth-section-sec-set-img2 {
+  width: 213px;
+  height: 461px;
+  border-radius: 25px;
+  margin-top: 5rem;
+}
+

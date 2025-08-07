@@ -1,0 +1,45 @@
+.sphere-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  max-width: 672px;
+  height: 459px;
+  overflow: hidden;
+  border-radius: 0 0 151px 360px;
+  background: #ff5b1c;
+  background: linear-gradient(
+    3deg,
+    rgba(255, 91, 28, 0.89) 38%,
+    rgba(255, 140, 96, 1) 74%
+  );
+}
+
+.secondary-sphere-div {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  bottom: 255px;
+  right: 248px;
+  background-color: white;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.container-img {
+  display: block;
+  width: 451px;
+  height: 280px;
+  object-fit: contain;
+  opacity: 0.5;
+}
+
+.logo {
+  width: 28px;
+  height: 28px;
+}

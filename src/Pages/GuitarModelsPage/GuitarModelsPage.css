@@ -1,0 +1,80 @@
+/* FIRST SECTION */
+
+.main-container {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.first-section {
+  position: relative;
+}
+
+.home-svg-container {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem 0 0 2rem;
+  color: #666666;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.home-svg-paragraph {
+  color: #3d3d46;
+}
+
+.header-container {
+  padding: 1rem 0 0 7rem;
+}
+
+/* GUITAR DESCRIPTION SECTION */
+
+.guitar-description-wrapper {
+  width: 536px;
+  height: 239px;
+  margin: 5rem 0 0 8rem;
+}
+
+.guitar-description-h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.guitar-description-paragraph {
+  color: #666666;
+  text-align: center;
+  padding: 1.5rem 2.5rem 0 2.5rem;
+}
+
+/* FILTER AND SEARCH SECTION */
+
+.second-section {
+  width: 100%;
+  height: 1023px;
+  padding: 0 8rem;
+}
+
+.second-section-h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.filter-search-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 3.5rem;
+}
+
+.model-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+  justify-items: center;
+  margin: 8rem 0 3rem 0;
+}

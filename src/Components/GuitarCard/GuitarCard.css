@@ -1,0 +1,26 @@
+.guitar-card-container {
+  width: 364px;
+  height: 280px;
+}
+
+.guitar-card-img {
+  width: 364px;
+  object-fit: contain;
+}
+
+.guitar-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1.75rem;
+}
+
+.guitar-card-name {
+  color: #121212;
+  font-size: 1rem;
+}
+
+.guitar-card-price {
+  color: #666666;
+  font-size: 0.875rem;
+}

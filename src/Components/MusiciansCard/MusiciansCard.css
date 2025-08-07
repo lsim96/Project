@@ -1,0 +1,24 @@
+.musician-main-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 492px;
+  height: 549px;
+  background-color: #ffefe8;
+  border-radius: 2px;
+}
+
+.musician-img {
+  width: 444px;
+  height: 444px;
+  object-fit: cover;
+  padding: 1rem 0 2rem 2.8rem;
+}
+
+.musician-paragraph {
+  width: 492px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+  color: #666666;
+  text-align: center;
+}

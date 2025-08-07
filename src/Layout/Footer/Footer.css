@@ -1,0 +1,93 @@
+.main-wrapper {
+  height: 380px;
+  background-color: #eeeeee;
+}
+
+.first-footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 10rem;
+}
+
+.first-footer-inner-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.logo-img-wrapper {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.logo-text {
+  font-size: 2.25rem;
+}
+
+/* SVG SECTION */
+
+.svg-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.svg-ind-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.svg-paragraph {
+  color: #666666;
+}
+
+/* PAGES AND PRODUCT SECTION */
+
+.second-footer-container {
+  display: flex;
+  gap: 8rem;
+}
+
+.second-footer-inner-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footer-paragraph {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.pages-product-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.pages-details-paragraph {
+  color: #666666;
+}
+
+/* SOCIAL LINKS SECTION */
+
+.social-links-wrapper {
+  display: flex;
+  gap: 8rem;
+}
+
+.social-link-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.social-svgs-wrapper {
+  display: flex;
+  gap: 3rem;
+}
+
+.copyright-paragraph {
+  text-align: center;
+  color: #666666;
+}

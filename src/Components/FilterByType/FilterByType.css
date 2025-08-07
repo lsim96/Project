@@ -1,0 +1,71 @@
+.filter-container {
+  position: relative;
+}
+
+.filter-container:focus-within {
+  border-color: #ff6428;
+  box-shadow: 0 0 0 2px rgba(255, 100, 40, 0.2);
+}
+
+.filter-wrapper {
+  width: 334px;
+  height: 74px;
+  padding: 0 1rem;
+  cursor: pointer;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+}
+
+.filter-wrapper:focus-within {
+  border-color: #ff6428;
+  box-shadow: 0 0 0 2px rgba(255, 100, 40, 0.2);
+}
+
+.filter-svg-container {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.filter-label {
+  flex: 1;
+  text-align: center;
+  font-size: 1.75rem;
+  font-family: "Circular Std", sans-serif;
+  color: #b8b8c0;
+  transition: color 0.2s;
+}
+
+.filter-label.open {
+  color: #ff6c33;
+}
+
+.second-filter-svg-container {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.guitar-types-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.guitar-types-wrapper {
+  cursor: pointer;
+  color: #9292a3;
+  padding: 0.75rem 1rem;
+}
+
+.guitar-types-wrapper:hover {
+  background: #ffefe9;
+  color: #ff8c60;
+}

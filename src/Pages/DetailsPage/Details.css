@@ -1,0 +1,155 @@
+.main-details-container {
+  width: 100%;
+  position: relative;
+}
+
+.first-details-div {
+  min-height: 600px;
+  position: relative;
+}
+
+.home-details-svg-container {
+  display: flex;
+  padding: 2rem 0 0 2rem;
+  gap: 1rem;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.home-details-svg-paragraph {
+  color: #3d3d46;
+}
+
+.header-details-container {
+  padding: 1rem 0 0 7rem;
+}
+
+.guitar-name-container {
+  width: 536px;
+  height: 239px;
+  margin: 5rem 0 0 7rem;
+}
+
+.guitar-name {
+  font-weight: bold;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.top-right-sphere {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  max-width: 672px;
+  height: 459px;
+  border-radius: 0 0 151px 360px;
+  background: linear-gradient(
+    3deg,
+    rgba(255, 91, 28, 0.89) 38%,
+    rgba(255, 140, 96, 1) 74%
+  );
+}
+
+.guitar-img {
+  position: absolute;
+  width: 451px;
+  height: 280px;
+  object-fit: contain;
+  transform: translate(0, 0) rotate(-48.69deg) skewX(0) skewY(0) scaleX(1)
+    scaleY(1);
+}
+
+.details-butterfly-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 240px;
+  bottom: 100px;
+  width: 5rem;
+  height: 5rem;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.second-section-div {
+  padding-top: 4rem;
+}
+
+.details-button-container {
+  display: flex;
+  width: 100%;
+}
+
+.tab-button {
+  font-size: 1.5rem; /* text-2xl */
+  text-align: center;
+  height: 69px;
+  width: 50%;
+  border-bottom: 4px solid transparent;
+  color: #9292a3;
+  transition: all 0.2s ease;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  cursor: pointer;
+}
+
+.tab-button.active {
+  border-bottom-color: #ff8a5d;
+  color: #ff8a5d;
+}
+
+.guitar-description {
+  text-align: left;
+  padding: 8rem 9rem 0 9rem;
+  font-size: 1.5rem;
+}
+
+.guitar-specs {
+  padding-left: 10.25rem;
+  margin: 4rem 0 13rem 0;
+  list-style-type: disc;
+  font-size: 1.5rem;
+}
+
+.musician-container {
+  display: flex;
+  width: 1027px;
+  height: 549px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 2.75rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.pagination-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 5rem;
+}
+
+.pagination-dot {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination-dot.active {
+  background-color: #ff8a5d;
+}
