@@ -1,69 +1,74 @@
-# React + TypeScript + Vite
+# Guitar Shop – Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Guitar Shop** is a responsive and interactive web application built using **React**, **GraphQL**, and **CSS**. It enables users to browse a collection of guitar models, view detailed specifications, and discover which musicians play each instrument. All data is fetched from a GraphQL API.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** – For building dynamic, component-based user interfaces.
+- **GraphQL** – For efficient and structured data querying.
+- **CSS** – Custom styles written without any frameworks (e.g., no Tailwind or Bootstrap).
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Guitar listing fetched dynamically from the backend
+- Detailed guitar model pages with description, specs, and images
+- Musician showcase section per model
+- Tab-based navigation between specifications and musician info
+- Pagination for musician cards
+- Fully responsive layout with clean, handcrafted CSS
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Setup Instructions
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+1. **Clone the Repository**
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+git clone https://github.com/lsim96/Project.git
+cd Project
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. **Install Dependencies**
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Make sure **Node.js** and **npm** are installed. Then run:
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
 ```
+
+3. **Start the Development Server**
+
+Depending on your setup (Vite, Create React App, etc.), run:
+
+```bash
+npm run dev
+```
+
+or
+
+```bash
+npm start
+```
+
+The application should be running on `http://localhost:5173` or `http://localhost:3000`.
+
+4. **GraphQL Backend**
+
+Ensure your GraphQL backend is running and matches the endpoint configured in your Apollo Client setup.
+
+## Project Structure
+
+```
+src/
+├── Components/          # Reusable components like MusiciansCard
+├── Layout/              # Layout components such as Header
+├── Pages/               # Page components like DetailsPage
+├── queries/             # GraphQL queries
+├── styles/              # Plain CSS files
+├── App.tsx
+└── main.tsx or index.tsx
+```
+
+## Future Improvements
+
+- Search and filtering options
+- User authentication and favorites
+- Admin dashboard for managing data
