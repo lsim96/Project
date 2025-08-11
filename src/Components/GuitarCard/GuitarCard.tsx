@@ -32,7 +32,7 @@ function GuitarCard({ image, name, price, onClick }: GuitarCardProps) {
 
       <div className="guitar-card-content">
         <h3 className="guitar-card-name">{name}</h3>
-        <p className="guitar-card-price">{price}</p>
+        <p className="guitar-card-price">${price}</p>
       </div>
     </div>
   );
